@@ -1,34 +1,64 @@
-.TodoWrapper {
-  text-align: center;
-  background-color: #000c34;
-  justify-items: center;
+
+body {
+  background-color: #8758ff;
   color: #fff;
-  width: auto;
-  height: auto;
+}
+.App {
+  text-align: center;
+  
+}
+.TodoWrapper {
+background-color: #000f00;
+border-radius: 6px;
+margin-bottom: 20px;
+padding: 50px 250px 20px 255px;
+text-align: center;
+position: relative;
+
+
+  
+  
+  
 
 
 }
 
+.king {
+  font-style: italic;
+  color: aquamarine;
+
+}
 
 .todo-input {
-  height: 27px;
+  height: 42px;
+  width: 270px;
+  margin-bottom: 14px;
+ 
+
+
+  
 
 }
 
 .todo-input::placeholder {
-  color: #ffffff4d;
+  color: #8758ff;
   
 }
 .todo-btn {
   background-color: #8758ff;
   width: auto;
   color: #fff;
-  padding: 0.55rem;
   border: none;
   cursor: pointer;
+	align-self: center;
+  height: 47px;
+  margin-bottom: 14px;
+	
 }
 
-
+.TodoForm {
+  display: flex;
+}
 
 .Todo {
   display: flex;
@@ -53,3 +83,11 @@
   color: #c5aeff;
   text-decoration: line-through;
 }
+
+
+
+
+#jp-post-flair {
+	padding-top: .5em;
+}
+
