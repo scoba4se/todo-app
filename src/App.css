@@ -10,18 +10,14 @@ body {
 .TodoWrapper {
 background-color: #000f00;
 border-radius: 6px;
-margin-bottom: 20px;
-padding: 50px 250px 20px 255px;
-text-align: center;
-position: relative;
-
-
-  
-  
-  
-
-
+margin: 180px;
+width: 450px;
+justify-content: center;
+align-items: center;
+padding: 20px;
 }
+
+
 
 .king {
   font-style: italic;
@@ -31,8 +27,9 @@ position: relative;
 
 .todo-input {
   height: 42px;
-  width: 270px;
+  width: 290px;
   margin-bottom: 14px;
+  padding-left: 10px;
  
 
 
@@ -53,24 +50,32 @@ position: relative;
 	align-self: center;
   height: 47px;
   margin-bottom: 14px;
+
 	
 }
 
-.TodoForm {
-  display: flex;
+div {
+justify-items: end;
+  align-items: center;
+  background-color: #8758ff;
+  justify-content: space-between;
+  
 }
 
 .Todo {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  background-color: #8758ff;
   color: #fff;
   padding: 0.75rem 1rem;
   border-radius: 5px;
   margin-bottom: 1rem;
   cursor: pointer;
+  width: 342px;
   height: 20px;
+  
+  margin-left: 38px;
+
+
 
 }
 
@@ -85,9 +90,4 @@ position: relative;
 }
 
 
-
-
-#jp-post-flair {
-	padding-top: .5em;
-}
 
